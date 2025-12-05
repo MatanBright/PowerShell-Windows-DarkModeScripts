@@ -62,6 +62,5 @@ $jobList += Start-JobHere { scripts\Set-WindowsDarkModeAndNightLightStates.ps1 $
 #$jobList += Start-JobHere { scripts\etc\Set-ChromeForceDarkState.ps1 $args[0] } $shouldEnableDarkMode
 #$jobList += Start-JobHere { scripts\etc\Set-InkscapeDarkModeState.ps1 $args[0] } $shouldEnableDarkMode
 #$jobList += Start-JobHere { scripts\etc\Set-ArduinoIdeDarkModeState.ps1 $args[0] } $shouldEnableDarkMode
-#$jobList += Start-JobHere { scripts\etc\Set-QidiSlicerDarkModeState.ps1 $args[0] } $shouldEnableDarkMode
 #####################################################################################
 Wait-Job $jobList
